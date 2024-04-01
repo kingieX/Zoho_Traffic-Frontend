@@ -1,0 +1,134 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+
+
+.body {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  background-color: rgb(209, 224, 224);
+}
+
+.Navbar {
+  /* display:; */
+  /* width: 275px; */
+  height: 100%;
+}
+
+.left {
+  width: 18%;
+}
+
+.sidebar {
+  width: 82%;
+  height: 100vh;
+  background-color: rgb(209, 224, 224);
+}
+
+.sidebar2 {
+  width: 82%;
+  height: 100vh;
+  background-color: white;
+  margin: 5px;
+}
+
+.main {
+  display: flex;
+  flex-direction: row;
+  gap: 4px;
+  width: 100%;
+  height: 100%;
+}
+.info {
+  width: 30%;
+}
+.map {
+  /* background-color: white; */
+  width: 80%;
+  height: 400px;
+}
+
+.firstbox {
+  background-color: white;
+  padding: 5px;
+  height: 45%;
+}
+.secondbox {
+  background-color: white;
+  padding: 5px;
+  height: 55%;
+}
+
+
+.box {
+  width: 450px;
+  height: 420px;
+}
+
+.image {
+  width: 420px;
+  height: 420px;
+}
+
+.btn-color {
+  background-color: #343A40;
+  color: white;
+}
+
+.btn-color:hover {
+  background-color: white;
+  color: #343A40;
+  border: solid 1px #343A40;
+}
+
+.btn-color2 {
+  background-color: white;
+  color: #343A40;
+  border-color: #343A40;
+}
+
+.btn-color2:hover {
+  background-color: #343A40;
+  color: white;
+}
+
+.google {
+  width: 60px;
+  text-align: center;
+}
+
+.traffic {
+  width: 80%;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(221, 215, 215);
+  width: 50%;
+  height: fit-content;
+  margin: 5px;
+  padding: 15px;
+  border-radius: 5px;
+}
+
+.overlay {
+  display: flex;
+  background-color: rgba(78, 77, 77, 0.658);
+  justify-content: flex-start;
+  flex-direction: row;
+  gap: 5px;
+  align-items: center;
+  position: absolute;
+  /* border: 2px solid rgb(34, 37, 35); */
+  border-radius: 5px;
+  width: 400px;
+  height: 100px;
+  margin-left: 200px;
+
+}
